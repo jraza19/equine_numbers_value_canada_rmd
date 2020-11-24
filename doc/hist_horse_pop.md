@@ -5,6 +5,7 @@ Historical horse population in Canada
   - [Data](#data)
   - [Methods](#methods)
   - [Results](#results)
+  - [References](#references)
 
 ## Aim
 
@@ -25,9 +26,10 @@ two sources were used:
 
 ## Methods
 
-The R programming language and the following R packages were used to
-perform the analysis: knitr and tidyverse. The code used to perform the
-analysis and create this report can be found here:
+The R programming language (R Core Team 2020) and the following R
+packages were used to perform the analysis: knitr (Xie 2014) and
+tidyverse (Wickham et al. 2019). The code used to perform the analysis
+and create this report can be found here:
 <https://github.com/ttimbers/equine_numbers_value_canada_rmd>.
 
 ## Results
@@ -72,4 +74,46 @@ between 1940 - 1972
 
 Below we zoom in and look at the province of Alberta:
 
-![](hist_horse_pop_files/figure-gfm/plot%20province-1.png)<!-- -->
+<div class="figure">
+
+<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" alt="Figure 2. The horse population for province of focus" width="50%" />
+
+<p class="caption">
+
+Figure 2. The horse population for province of focus
+
+</p>
+
+</div>
+
+# References
+
+<div id="refs" class="references hanging-indent">
+
+<div id="ref-R">
+
+R Core Team. 2020. *R: A Language and Environment for Statistical
+Computing*. Vienna, Austria: R Foundation for Statistical Computing.
+<https://www.R-project.org/>.
+
+</div>
+
+<div id="ref-tidyverse">
+
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy
+D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.
+“Welcome to the tidyverse.” *Journal of Open Source Software* 4 (43):
+1686. <https://doi.org/10.21105/joss.01686>.
+
+</div>
+
+<div id="ref-knitr">
+
+Xie, Yihui. 2014. “Knitr: A Comprehensive Tool for Reproducible Research
+in R.” In *Implementing Reproducible Computational Research*, edited by
+Victoria Stodden, Friedrich Leisch, and Roger D. Peng. Chapman;
+Hall/CRC. <http://www.crcpress.com/product/isbn/9781466561595>.
+
+</div>
+
+</div>
