@@ -1,11 +1,11 @@
 Historical horse population in Canada
 ================
 
-  - [Aim](#aim)
-  - [Data](#data)
-  - [Methods](#methods)
-  - [Results](#results)
-  - [References](#references)
+-   [Aim](#aim)
+-   [Data](#data)
+-   [Methods](#methods)
+-   [Results](#results)
+-   [References](#references)
 
 ## Aim
 
@@ -18,9 +18,9 @@ Horse population data were sourced from the [Government of Canada’s Open
 Data website](http://open.canada.ca/en/open-data). Specifically, these
 two sources were used:
 
-  - [Horses, number on farms at June 1 and at
-    December 1](http://open.canada.ca/data/en/dataset/43b3a9b3-3842-45e7-8bc8-c4c27b9462ab)
-  - [Horses, number on farms at June 1, farm value per head and total
+-   [Horses, number on farms at June 1 and at December
+    1](http://open.canada.ca/data/en/dataset/43b3a9b3-3842-45e7-8bc8-c4c27b9462ab)
+-   [Horses, number on farms at June 1, farm value per head and total
     farm
     value](http://open.canada.ca/data/en/dataset/b374f60b-9580-44dc-83f6-c0a850c15f30)
 
@@ -37,11 +37,8 @@ and create this report can be found here:
 <div class="figure">
 
 <img src="hist_horse_pop_files/figure-gfm/plot horses-1.png" alt="Figure 1. Number of Horses Per Province" width="100%" />
-
 <p class="caption">
-
 Figure 1. Number of Horses Per Province
-
 </p>
 
 </div>
@@ -58,7 +55,7 @@ Next we look at the range of the number horses for each provinces at any
 time point between 1940 - 1972:
 
 | Province             | Maximum | Minimum |
-| :------------------- | ------: | ------: |
+|:---------------------|--------:|--------:|
 | Alberta              |  806200 |   87000 |
 | British Columbia     |   65200 |   22500 |
 | Manitoba             |  370800 |   31000 |
@@ -77,20 +74,17 @@ Below we zoom in and look at the province of Alberta:
 <div class="figure">
 
 <img src="hist_horse_pop_files/figure-gfm/plot province-1.png" alt="Figure 2. The horse population for province of focus" width="50%" />
-
 <p class="caption">
-
 Figure 2. The horse population for province of focus
-
 </p>
 
 </div>
 
 # References
 
-<div id="refs" class="references hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-R">
+<div id="ref-R" class="csl-entry">
 
 R Core Team. 2020. *R: A Language and Environment for Statistical
 Computing*. Vienna, Austria: R Foundation for Statistical Computing.
@@ -98,16 +92,16 @@ Computing*. Vienna, Austria: R Foundation for Statistical Computing.
 
 </div>
 
-<div id="ref-tidyverse">
+<div id="ref-tidyverse" class="csl-entry">
 
 Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy
 D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.
-“Welcome to the tidyverse.” *Journal of Open Source Software* 4 (43):
-1686. <https://doi.org/10.21105/joss.01686>.
+“Welcome to the <span class="nocase">tidyverse</span>.” *Journal of Open
+Source Software* 4 (43): 1686. <https://doi.org/10.21105/joss.01686>.
 
 </div>
 
-<div id="ref-knitr">
+<div id="ref-knitr" class="csl-entry">
 
 Xie, Yihui. 2014. “Knitr: A Comprehensive Tool for Reproducible Research
 in R.” In *Implementing Reproducible Computational Research*, edited by
